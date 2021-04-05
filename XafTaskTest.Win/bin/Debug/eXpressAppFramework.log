@@ -1,0 +1,944 @@
+05.04.21 00:19:58.304	================================================================================
+05.04.21 00:19:58.307	Trace Log for XafTaskTest.Win.exe is started
+05.04.21 00:19:58.308	================================================================================
+05.04.21 00:19:58.310	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.2.5.0
+	eXpressApp File Version: 20.2.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+05.04.21 00:19:58.461	Initialize application
+=======================
+05.04.21 00:19:58.462		Command line arguments: 
+		E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Win.exe
+05.04.21 00:19:58.928	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+05.04.21 00:19:58.929	--------------------------------------------------------------------------------
+							
+
+05.04.21 00:19:58.967	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.2.dll
+	DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Data.v20.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v20.2.dll
+	DevExpress.ExpressApp.Objects.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v20.2.dll
+	DevExpress.ExpressApp.Security.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v20.2.dll
+	DevExpress.ExpressApp.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.2.dll
+	DevExpress.ExpressApp.v20.2.resources, Version=20.2.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.2.resources\v4.0_20.2.0.0_es_b88d1754d700e49a\DevExpress.ExpressApp.v20.2.resources.dll
+	DevExpress.ExpressApp.Validation.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.2.dll
+	DevExpress.ExpressApp.Validation.Win.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v20.2.dll
+	DevExpress.ExpressApp.Win.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.2.dll
+	DevExpress.ExpressApp.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.2.dll
+	DevExpress.Persistent.Base.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.2.dll
+	DevExpress.Persistent.BaseImpl.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.2.dll
+	DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Utils.v20.2.dll
+	DevExpress.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v20.2.dll
+	DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.XtraBars.v20.2.dll
+	DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.2.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=es, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XafTaskTest.Module, Version=1.0.7765.597, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Module.dll
+	XafTaskTest.Module.Win, Version=1.0.7765.598, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Module.Win.dll
+	XafTaskTest.Win, Version=1.0.7765.598, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Win.exe
+05.04.21 00:19:58.969	Resolve the 'DevExpress.BonusSkins.v20.2, Version=20.2.5.0' assembly
+05.04.21 00:19:59.110	SetupModules
+05.04.21 00:19:59.366	Customize TypesInfo
+05.04.21 00:19:59.434	The ValueManagerType is initialized by the default value: SimpleValueManager.
+05.04.21 00:19:59.541	Stack trace:
+   en DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   en DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   en System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   en DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   en DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   en DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.SetupCore(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   en DevExpress.ExpressApp.Win.WinApplication.<>n__0(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   en DevExpress.ExpressApp.Win.WinApplication.<>c__DisplayClass77_0.<SetupCore>b__0()
+   en System.Threading.Tasks.Task.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+   en System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   en System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   en System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+05.04.21 00:20:01.513		preferredLanguageName: (User language)
+								userLanguageName: es-ES
+
+05.04.21 00:20:01.517		preferredLanguageName: (User language)
+								userFormattingCultureName: es-ES
+								selectedFormattingCultureName: 
+
+05.04.21 00:20:01.676	Logon With Parameters
+05.04.21 00:20:01.677		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: dc5fb731-e68b-4917-8bc9-e1cc4f0d73b2
+								Category: Unspecified
+
+05.04.21 00:20:01.737	Generate default Model for Action containers
+05.04.21 00:20:08.539	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:20:08.540		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: DialogCancel
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+05.04.21 00:20:08.540	Window closing: Conectarse
+05.04.21 00:20:08.604	Action 'DialogCancel' done
+05.04.21 00:20:08.606	Window closed: Conectarse
+05.04.21 00:20:08.632	Application stopping
+=====================
+05.04.21 00:21:35.773	================================================================================
+05.04.21 00:21:35.774	Trace Log for XafTaskTest.Win.exe is started
+05.04.21 00:21:35.774	================================================================================
+05.04.21 00:21:35.776	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.2.5.0
+	eXpressApp File Version: 20.2.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+05.04.21 00:21:35.859	Initialize application
+=======================
+05.04.21 00:21:35.860		Command line arguments: 
+		E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Win.exe
+05.04.21 00:21:36.215	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+05.04.21 00:21:36.215	--------------------------------------------------------------------------------
+							
+
+05.04.21 00:21:36.240	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.2.dll
+	DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Data.v20.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v20.2.dll
+	DevExpress.ExpressApp.Objects.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v20.2.dll
+	DevExpress.ExpressApp.Security.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v20.2.dll
+	DevExpress.ExpressApp.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.2.dll
+	DevExpress.ExpressApp.v20.2.resources, Version=20.2.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.2.resources\v4.0_20.2.0.0_es_b88d1754d700e49a\DevExpress.ExpressApp.v20.2.resources.dll
+	DevExpress.ExpressApp.Validation.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.2.dll
+	DevExpress.ExpressApp.Validation.Win.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v20.2.dll
+	DevExpress.ExpressApp.Win.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.2.dll
+	DevExpress.ExpressApp.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.2.dll
+	DevExpress.Persistent.Base.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.2.dll
+	DevExpress.Persistent.BaseImpl.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.2.dll
+	DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Utils.v20.2.dll
+	DevExpress.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v20.2.dll
+	DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.XtraBars.v20.2.dll
+	DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.2.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=es, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XafTaskTest.Module, Version=1.0.7765.647, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Module.dll
+	XafTaskTest.Module.Win, Version=1.0.7765.647, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Module.Win.dll
+	XafTaskTest.Win, Version=1.0.7765.647, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Win.exe
+05.04.21 00:21:36.246	Resolve the 'DevExpress.BonusSkins.v20.2, Version=20.2.5.0' assembly
+05.04.21 00:21:36.668	SetupModules
+05.04.21 00:21:36.808	Customize TypesInfo
+05.04.21 00:21:36.817	The ValueManagerType is initialized by the default value: SimpleValueManager.
+05.04.21 00:21:36.830	Stack trace:
+   en DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   en DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   en System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   en DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   en DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   en DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.SetupCore(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   en DevExpress.ExpressApp.Win.WinApplication.<>n__0(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   en DevExpress.ExpressApp.Win.WinApplication.<>c__DisplayClass77_0.<SetupCore>b__0()
+   en System.Threading.Tasks.Task.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+   en System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   en System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   en System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+05.04.21 00:21:38.198		preferredLanguageName: (User language)
+								userLanguageName: es-ES
+
+05.04.21 00:21:38.198		preferredLanguageName: (User language)
+								userFormattingCultureName: es-ES
+								selectedFormattingCultureName: 
+
+05.04.21 00:21:38.337	Logon With Parameters
+05.04.21 00:21:38.338		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: d556a848-aaec-43d8-825f-30b707346788
+								Category: Unspecified
+
+05.04.21 00:21:38.400	Generate default Model for Action containers
+05.04.21 00:21:43.788	'UserName' property editor: new value is 'admin'
+05.04.21 00:21:43.789	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:21:43.790		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+05.04.21 00:21:43.791	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:21:43.791		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: d556a848-aaec-43d8-825f-30b707346788
+								Category: Unspecified
+
+05.04.21 00:21:43.814	--------------------------------------------------------------------------------
+							Start logon process
+
+05.04.21 00:21:43.842	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+05.04.21 00:21:43.845		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XafTaskDB;XpoDataStorePool=True;
+05.04.21 00:21:43.848		ConnectionString: 
+05.04.21 00:21:43.859	Resolve the 'Microsoft.Data.SqlClient' assembly
+05.04.21 00:21:43.893	Resolve the 'System.Data.SqlClient' assembly
+05.04.21 00:21:53.949	--------------------------------------------------------------------------------
+							UpdateDB
+
+05.04.21 00:22:04.282		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XafTaskDB;XpoDataStorePool=True;
+05.04.21 00:22:05.410	--------------------------------------------------------------------------------
+							Logon successful
+
+05.04.21 00:22:05.446	--------------------------------------------------------------------------------
+							Logon completed
+
+05.04.21 00:22:05.454		startUpActions: 1
+05.04.21 00:22:05.460	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+05.04.21 00:22:05.790	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:22:05.791		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:22:05.792		SelectedItem: Category
+05.04.21 00:22:06.098	Action 'ShowNavigationItem' done
+05.04.21 00:22:06.303	Action 'd556a848-aaec-43d8-825f-30b707346788' done
+05.04.21 00:22:06.304	Window closing: Conectarse
+05.04.21 00:22:06.312	Action 'Logon' done
+05.04.21 00:22:06.313	Window closed: Conectarse
+05.04.21 00:22:06.328	Application startup done
+=========================
+05.04.21 00:22:06.329	Application running
+====================
+05.04.21 00:22:16.204	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:22:16.205		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Category
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+05.04.21 00:22:16.205		SelectedItem: Category
+05.04.21 00:22:16.471	Action 'New' done
+05.04.21 00:22:22.070	Window closing: Category
+05.04.21 00:22:22.076	Window closed: Category
+05.04.21 00:22:24.419	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:22:24.419		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:22:24.420		SelectedItem: Product
+05.04.21 00:22:24.578	Action 'ShowNavigationItem' done
+05.04.21 00:22:25.985	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:22:25.985		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Product
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+05.04.21 00:22:25.992	Action 'Refresh' done
+05.04.21 00:22:31.993	Window closing: Category
+05.04.21 00:22:31.994	Window closing: Product
+05.04.21 00:22:31.994	Window closing: Product - XafTaskTest
+05.04.21 00:22:32.041	Resolve the 'DevExpress.ExpressApp.Win.v20.2.XmlSerializers, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+05.04.21 00:22:32.070	Resolve the 'DevExpress.ExpressApp.Win.v20.2.XmlSerializers, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+05.04.21 00:22:32.104	Window closed: Category
+05.04.21 00:22:32.105	Window closed: Product
+05.04.21 00:22:32.105	Window closed: Product - XafTaskTest
+05.04.21 00:22:32.355	Save model changes
+===================
+05.04.21 00:22:32.371	Save model changes
+===================
+05.04.21 00:22:32.386	--------------------------------------------------------------------------------
+							Logoff completed
+
+05.04.21 00:22:32.388	Application stopping
+=====================
+05.04.21 00:23:04.157	================================================================================
+05.04.21 00:23:04.158	Trace Log for XafTaskTest.Win.exe is started
+05.04.21 00:23:04.158	================================================================================
+05.04.21 00:23:04.159	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.2.5.0
+	eXpressApp File Version: 20.2.5.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+05.04.21 00:23:04.224	Initialize application
+=======================
+05.04.21 00:23:04.225		Command line arguments: 
+		E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Win.exe
+05.04.21 00:23:04.606	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+05.04.21 00:23:04.607	--------------------------------------------------------------------------------
+							
+
+05.04.21 00:23:04.620	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.2.dll
+	DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Data.v20.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v20.2.dll
+	DevExpress.ExpressApp.Objects.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v20.2.dll
+	DevExpress.ExpressApp.Security.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v20.2.dll
+	DevExpress.ExpressApp.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.2.dll
+	DevExpress.ExpressApp.v20.2.resources, Version=20.2.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.2.resources\v4.0_20.2.0.0_es_b88d1754d700e49a\DevExpress.ExpressApp.v20.2.resources.dll
+	DevExpress.ExpressApp.Validation.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.2.dll
+	DevExpress.ExpressApp.Validation.Win.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v20.2.dll
+	DevExpress.ExpressApp.Win.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.2.dll
+	DevExpress.ExpressApp.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.2.dll
+	DevExpress.Persistent.Base.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.2.dll
+	DevExpress.Persistent.BaseImpl.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.2.dll
+	DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Utils.v20.2.dll
+	DevExpress.Xpo.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.Xpo.v20.2.dll
+	DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.XtraBars.v20.2.dll
+	DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.2\v4.0_20.2.5.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.2.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=es, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_es_b77a5c561934e089\mscorlib.resources.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	XafTaskTest.Module, Version=1.0.7765.647, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Module.dll
+	XafTaskTest.Module.Win, Version=1.0.7765.647, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Module.Win.dll
+	XafTaskTest.Win, Version=1.0.7765.647, Culture=neutral, PublicKeyToken=null, Location=E:\XafTask\XafTaskTest\XafTaskTest\XafTaskTest.Win\bin\Debug\XafTaskTest.Win.exe
+05.04.21 00:23:04.624	Resolve the 'DevExpress.BonusSkins.v20.2, Version=20.2.5.0' assembly
+05.04.21 00:23:04.770	SetupModules
+05.04.21 00:23:04.903	Customize TypesInfo
+05.04.21 00:23:04.910	The ValueManagerType is initialized by the default value: SimpleValueManager.
+05.04.21 00:23:04.924	Stack trace:
+   en DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   en DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   en System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   en DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   en DevExpress.ExpressApp.SecuritySystem.SetInstance(ISecurityStrategyBase instance)
+   en DevExpress.ExpressApp.XafApplication.InitializeSecuritySystem(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.Setup(ExpressApplicationSetupParameters parameters)
+   en DevExpress.ExpressApp.XafApplication.SetupCore(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   en DevExpress.ExpressApp.Win.WinApplication.<>n__0(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   en DevExpress.ExpressApp.Win.WinApplication.<>c__DisplayClass77_0.<SetupCore>b__0()
+   en System.Threading.Tasks.Task.InnerInvoke()
+   en System.Threading.Tasks.Task.Execute()
+   en System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   en System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   en System.Threading.Tasks.Task.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+05.04.21 00:23:06.523		preferredLanguageName: (User language)
+								userLanguageName: es-ES
+
+05.04.21 00:23:06.524		preferredLanguageName: (User language)
+								userFormattingCultureName: es-ES
+								selectedFormattingCultureName: 
+
+05.04.21 00:23:06.664	Logon With Parameters
+05.04.21 00:23:06.664		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 230d3580-4130-49f2-aba5-0bcb5f62238c
+								Category: Unspecified
+
+05.04.21 00:23:06.727	Generate default Model for Action containers
+05.04.21 00:23:08.775	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:08.776		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+05.04.21 00:23:08.777	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:08.777		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 230d3580-4130-49f2-aba5-0bcb5f62238c
+								Category: Unspecified
+
+05.04.21 00:23:08.814	--------------------------------------------------------------------------------
+							Start logon process
+
+05.04.21 00:23:08.837	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+05.04.21 00:23:08.838		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XafTasksDB;XpoDataStorePool=True;
+05.04.21 00:23:08.838		ConnectionString: 
+05.04.21 00:23:08.847	Resolve the 'Microsoft.Data.SqlClient' assembly
+05.04.21 00:23:08.884	Resolve the 'System.Data.SqlClient' assembly
+05.04.21 00:23:09.033	--------------------------------------------------------------------------------
+							UpdateDB
+
+05.04.21 00:23:09.052		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=(local);Initial Catalog=XafTasksDB;XpoDataStorePool=True;
+05.04.21 00:23:09.422	--------------------------------------------------------------------------------
+							Logon successful
+
+05.04.21 00:23:09.513	--------------------------------------------------------------------------------
+							Logon completed
+
+05.04.21 00:23:09.522		startUpActions: 1
+05.04.21 00:23:09.531	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+05.04.21 00:23:09.807	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:09.807		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:23:09.808		SelectedItem: Category
+05.04.21 00:23:10.130	Action 'ShowNavigationItem' done
+05.04.21 00:23:10.403	Action '230d3580-4130-49f2-aba5-0bcb5f62238c' done
+05.04.21 00:23:10.404	Window closing: Conectarse
+05.04.21 00:23:10.412	Action 'Logon' done
+05.04.21 00:23:10.412	Window closed: Conectarse
+05.04.21 00:23:10.427	Application startup done
+=========================
+05.04.21 00:23:10.428	Application running
+====================
+05.04.21 00:23:12.880	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:12.881		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:23:12.881		SelectedItem: Role
+05.04.21 00:23:13.046	Action 'ShowNavigationItem' done
+05.04.21 00:23:14.509	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:14.510		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:23:14.510		SelectedItem: User
+05.04.21 00:23:14.657	Action 'ShowNavigationItem' done
+05.04.21 00:23:16.201	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:16.202		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:23:16.203		SelectedItem: Product
+05.04.21 00:23:16.353	Action 'ShowNavigationItem' done
+05.04.21 00:23:19.854	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:19.855		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Product
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XafTasks.Module.BusinessObjects.Product(82d6f06c-276e-4a43-af40-c9db6238a47d)
+
+05.04.21 00:23:20.050	Action 'ListViewShowObject' done
+05.04.21 00:23:22.449	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:22.449		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:23:22.450		SelectedItem: Category
+05.04.21 00:23:22.531	Action 'ShowNavigationItem' done
+05.04.21 00:23:23.354	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:23.354		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Category
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XafTasks.Module.BusinessObjects.Category(1)
+
+05.04.21 00:23:23.633	Action 'ListViewShowObject' done
+05.04.21 00:23:27.754	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:27.755		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: PrintAction
+								Category: Unspecified
+								Controller.Name: XafTasks.Module.Controllers.TaskController
+								Context.Name: Category
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XafTasks.Module.BusinessObjects.Category(1)
+
+05.04.21 00:23:27.824	Action 'PrintAction' done
+05.04.21 00:23:35.624	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:35.625		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logoff
+								Category: Security
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LogoffController
+
+05.04.21 00:23:35.668	Resolve the 'DevExpress.ExpressApp.Win.v20.2.XmlSerializers, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+05.04.21 00:23:35.691	Resolve the 'DevExpress.ExpressApp.Win.v20.2.XmlSerializers, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+05.04.21 00:23:35.715	Window closing: Category
+05.04.21 00:23:35.719	Window closing: Role
+05.04.21 00:23:35.720	Window closing: User
+05.04.21 00:23:35.721	Window closing: Product
+05.04.21 00:23:35.722	Window closing: Product A - Product
+05.04.21 00:23:35.722	Window closing: 1 - Category
+05.04.21 00:23:35.723	Window closing: 1 - Category - XafTaskTest
+05.04.21 00:23:35.741	Window closed: Category
+05.04.21 00:23:35.741	Window closed: Role
+05.04.21 00:23:35.742	Window closed: User
+05.04.21 00:23:35.743	Window closed: Product
+05.04.21 00:23:35.743	Window closed: Product A - Product
+05.04.21 00:23:35.744	Window closed: 1 - Category
+05.04.21 00:23:35.744	Window closed: 1 - Category - XafTaskTest
+05.04.21 00:23:35.989	Save model changes
+===================
+05.04.21 00:23:36.020	--------------------------------------------------------------------------------
+							Logoff completed
+
+05.04.21 00:23:36.022	Logon With Parameters
+05.04.21 00:23:36.022		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 8688b172-7512-49c0-bc9b-2514c0ddcd1c
+								Category: Unspecified
+
+05.04.21 00:23:38.257	'UserName' property editor: new value is 'user'
+05.04.21 00:23:38.258	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:38.259		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+05.04.21 00:23:38.259	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:38.260		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 8688b172-7512-49c0-bc9b-2514c0ddcd1c
+								Category: Unspecified
+
+05.04.21 00:23:38.274	--------------------------------------------------------------------------------
+							Start logon process
+
+05.04.21 00:23:38.279	--------------------------------------------------------------------------------
+							Logon successful
+
+05.04.21 00:23:38.320	--------------------------------------------------------------------------------
+							Logon completed
+
+05.04.21 00:23:38.324		startUpActions: 1
+05.04.21 00:23:38.329	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+05.04.21 00:23:38.721	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:38.722		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:23:38.723		SelectedItem: Mis datos
+05.04.21 00:23:38.942	Action 'ShowNavigationItem' done
+05.04.21 00:23:39.185	Action '8688b172-7512-49c0-bc9b-2514c0ddcd1c' done
+05.04.21 00:23:39.186	Window closing: Conectarse
+05.04.21 00:23:39.187	Action 'Logon' done
+05.04.21 00:23:39.188	Window closed: Conectarse
+05.04.21 00:23:39.199	Action 'Logoff' done
+05.04.21 00:23:46.287	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:46.287		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logoff
+								Category: Security
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LogoffController
+
+05.04.21 00:23:46.290	Window closing: User - User
+05.04.21 00:23:46.290	Window closing: User - User - XafTaskTest
+05.04.21 00:23:46.293	Window closed: User - User
+05.04.21 00:23:46.294	Window closed: User - User - XafTaskTest
+05.04.21 00:23:46.448	Save model changes
+===================
+05.04.21 00:23:46.455	--------------------------------------------------------------------------------
+							Logoff completed
+
+05.04.21 00:23:46.456	Logon With Parameters
+05.04.21 00:23:46.457		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 0c7614dc-ba52-4f5a-aa3e-5efbd60d3905
+								Category: Unspecified
+
+05.04.21 00:23:48.686	'UserName' property editor: new value is 'admin'
+05.04.21 00:23:48.691	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:48.698		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+05.04.21 00:23:48.698	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:48.700		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 0c7614dc-ba52-4f5a-aa3e-5efbd60d3905
+								Category: Unspecified
+
+05.04.21 00:23:48.715	--------------------------------------------------------------------------------
+							Start logon process
+
+05.04.21 00:23:48.718	--------------------------------------------------------------------------------
+							Logon successful
+
+05.04.21 00:23:48.731	--------------------------------------------------------------------------------
+							Logon completed
+
+05.04.21 00:23:48.734		startUpActions: 1
+05.04.21 00:23:48.738	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+05.04.21 00:23:49.904	Action '0c7614dc-ba52-4f5a-aa3e-5efbd60d3905' done
+05.04.21 00:23:49.905	Window closing: Conectarse
+05.04.21 00:23:49.905	Action 'Logon' done
+05.04.21 00:23:49.907	Window closed: Conectarse
+05.04.21 00:23:49.920	Action 'Logoff' done
+05.04.21 00:23:52.800	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:52.801		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:23:52.802		SelectedItem: Role
+05.04.21 00:23:53.045	Action 'ShowNavigationItem' done
+05.04.21 00:23:54.166	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:23:54.167		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(9e140fe9-55cb-4626-9b03-7aaafe23c8b3)
+
+05.04.21 00:23:54.454	Action 'ListViewShowObject' done
+05.04.21 00:24:14.482	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:14.483		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(9e140fe9-55cb-4626-9b03-7aaafe23c8b3)
+
+05.04.21 00:24:14.501	Action 'Save' done
+05.04.21 00:24:17.059	Cannot retrieve a display property for the (PermissionPolicyTypePermissionObject).TargetType property because it references the "System.Type" type which doesn't have a display property
+05.04.21 00:24:24.168	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:24.169		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(9e140fe9-55cb-4626-9b03-7aaafe23c8b3)
+
+05.04.21 00:24:24.174	Action 'Save' done
+05.04.21 00:24:29.837	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:29.838		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Save
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Role
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole(9e140fe9-55cb-4626-9b03-7aaafe23c8b3)
+
+05.04.21 00:24:29.844	Action 'Save' done
+05.04.21 00:24:35.016	Window closing: Default - Role
+05.04.21 00:24:35.018	Window closed: Default - Role
+05.04.21 00:24:37.700	Window closing: Role
+05.04.21 00:24:37.701	Window closed: Role
+05.04.21 00:24:38.817	Window closing: 1 - Category
+05.04.21 00:24:38.818	Window closed: 1 - Category
+05.04.21 00:24:40.026	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:40.027		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:24:40.027		SelectedItem: Category
+05.04.21 00:24:40.156	Action 'ShowNavigationItem' done
+05.04.21 00:24:43.185	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:43.186		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logoff
+								Category: Security
+								Controller.Name: DevExpress.ExpressApp.SystemModule.LogoffController
+
+05.04.21 00:24:43.188	Window closing: Category
+05.04.21 00:24:43.189	Window closing: Category - XafTaskTest
+05.04.21 00:24:43.191	Window closed: Category
+05.04.21 00:24:43.191	Window closed: Category - XafTaskTest
+05.04.21 00:24:43.329	Save model changes
+===================
+05.04.21 00:24:43.343	--------------------------------------------------------------------------------
+							Logoff completed
+
+05.04.21 00:24:43.345	Logon With Parameters
+05.04.21 00:24:43.346		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 4f6db68b-0d12-40a8-ae58-96f81b4be737
+								Category: Unspecified
+
+05.04.21 00:24:45.899	'UserName' property editor: new value is 'user'
+05.04.21 00:24:45.900	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:45.900		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Conectarse
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+05.04.21 00:24:45.901	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:45.901		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 4f6db68b-0d12-40a8-ae58-96f81b4be737
+								Category: Unspecified
+
+05.04.21 00:24:45.914	--------------------------------------------------------------------------------
+							Start logon process
+
+05.04.21 00:24:45.937	--------------------------------------------------------------------------------
+							Logon successful
+
+05.04.21 00:24:45.948	--------------------------------------------------------------------------------
+							Logon completed
+
+05.04.21 00:24:45.952		startUpActions: 1
+05.04.21 00:24:45.957	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+05.04.21 00:24:46.906	Action '4f6db68b-0d12-40a8-ae58-96f81b4be737' done
+05.04.21 00:24:46.907	Window closing: Conectarse
+05.04.21 00:24:46.908	Action 'Logon' done
+05.04.21 00:24:46.910	Window closed: Conectarse
+05.04.21 00:24:46.923	Action 'Logoff' done
+05.04.21 00:24:50.174	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:50.175		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:24:50.175		SelectedItem: Category
+05.04.21 00:24:50.322	Action 'ShowNavigationItem' done
+05.04.21 00:24:52.240	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:52.240		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Category
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XafTasks.Module.BusinessObjects.Category(2)
+
+05.04.21 00:24:52.476	Action 'ListViewShowObject' done
+05.04.21 00:24:58.878	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:24:58.878		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:24:58.879		SelectedItem: Product
+05.04.21 00:24:59.073	Action 'ShowNavigationItem' done
+05.04.21 00:25:03.220	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:25:03.227		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:25:03.228		SelectedItem: Category
+05.04.21 00:25:03.311	Action 'ShowNavigationItem' done
+05.04.21 00:25:06.322	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:25:06.323		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Category
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: XafTasks.Module.BusinessObjects.Category(1)
+
+05.04.21 00:25:06.556	Action 'ListViewShowObject' done
+05.04.21 00:25:08.825	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:25:08.826		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:25:08.827		SelectedItem: Product
+05.04.21 00:25:08.918	Action 'ShowNavigationItem' done
+05.04.21 00:25:09.867	--------------------------------------------------------------------------------
+							Execute action
+
+05.04.21 00:25:09.868		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+05.04.21 00:25:09.868		SelectedItem: Mis datos
+05.04.21 00:25:10.050	Action 'ShowNavigationItem' done
+05.04.21 00:25:13.811	Window closing: User - User
+05.04.21 00:25:13.812	Window closing: Category
+05.04.21 00:25:13.812	Window closing: 1 - Category
+05.04.21 00:25:13.813	Window closing: Product
+05.04.21 00:25:13.814	Window closing: 1 - Category
+05.04.21 00:25:13.815	Window closing: User - User - XafTaskTest
+05.04.21 00:25:13.822	Window closed: User - User
+05.04.21 00:25:13.823	Window closed: Category
+05.04.21 00:25:13.824	Window closed: 1 - Category
+05.04.21 00:25:13.824	Window closed: Product
+05.04.21 00:25:13.825	Window closed: 1 - Category
+05.04.21 00:25:13.825	Window closed: User - User - XafTaskTest
+05.04.21 00:25:13.960	Save model changes
+===================
+05.04.21 00:25:13.968	Save model changes
+===================
+05.04.21 00:25:13.973	--------------------------------------------------------------------------------
+							Logoff completed
+
+05.04.21 00:25:13.980	Application stopping
+=====================
